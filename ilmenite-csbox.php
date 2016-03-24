@@ -249,6 +249,9 @@ class Ilmenite_CSBox {
 		if ( ! wp_verify_nonce( $_REQUEST['nonce'], 'send_phone' ) )
 			wp_die( __( 'The nonce did not verify.', 'ilcsb' ) );
 
+		// Get the options
+		$options = get_option( 'ilcsb_settings' );
+
 		// Get name
 		$name = sanitize_text_field( $_REQUEST['name'] );
 
@@ -258,7 +261,7 @@ class Ilmenite_CSBox {
 		if ( ! empty( $phone ) ) {
 
 			// Email To Address
-			$to_address = 'info@bernskioldmedia.com';
+			$to_address = $options['ilcsb_email'];
 
 			// Email Subject
 			$email_subject = __( 'Request For Phone Call', 'ilcsb' );
