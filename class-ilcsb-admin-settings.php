@@ -50,7 +50,7 @@ class ILCSB_Admin_Settings {
 			'ilcsb_contact_methods',
 			array(
 				'label_for'     => 'ilcsb_phone',
-				'description'   => __( 'Enter the phone number where your customers can call you.' ),
+				'description'   => __( 'Enter the phone number where your customers can call you.', 'ilcsb' ),
 			)
 		);
 
@@ -62,7 +62,7 @@ class ILCSB_Admin_Settings {
 			'ilcsb_contact_methods',
 			array(
 				'label_for'     => 'ilcsb_phone_from',
-				'description'   => __( 'From which hour is the phone open.' ),
+				'description'   => __( 'From which hour is the phone open.', 'ilcsb' ),
 			)
 		);
 
@@ -74,7 +74,7 @@ class ILCSB_Admin_Settings {
 			'ilcsb_contact_methods',
 			array(
 				'label_for'     => 'ilcsb_phone_to',
-				'description'   => __( 'Until which hour is the phone open.' ),
+				'description'   => __( 'Until which hour is the phone open.', 'ilcsb' ),
 			)
 		);
 
@@ -86,7 +86,7 @@ class ILCSB_Admin_Settings {
 			'ilcsb_contact_methods',
 			array(
 				'label_for'     => 'ilcsb_email',
-				'description'   => __( 'Enter the email address where your customers can contact you.' ),
+				'description'   => __( 'Enter the email address where your customers can contact you.', 'ilcsb' ),
 			)
 		);
 
