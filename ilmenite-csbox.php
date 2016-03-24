@@ -183,7 +183,7 @@ class Ilmenite_CSBox {
 		);
 
 		$contact_methods['phone_out'] = array(
-			'value'     => __( 'Let us call you', 'ilcs' ),
+			'value'     => __( 'Let us call you', 'ilcsb' ),
 			'icon'      => true,
 			'link'      => '#',
 			'status'    => true,
