@@ -1,0 +1,129 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Ilmenite Customer Service Box\n"
+"POT-Creation-Date: 2016-03-24 10:53+0100\n"
+"PO-Revision-Date: 2016-03-24 10:53+0100\n"
+"Last-Translator: Erik Bernskiold <erik@bernskioldmedia.com>\n"
+"Language-Team: Erik Bernskiold <erik@bernskioldmedia.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ilmenite-csbox.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: class-ilcsb-admin-settings.php:25 class-ilcsb-admin-settings.php:26
+msgid "Customer Service Box"
+msgstr ""
+
+#: class-ilcsb-admin-settings.php:40
+msgid "Contact Methods"
+msgstr ""
+
+#: class-ilcsb-admin-settings.php:47 templates/leave-phone-number.php:18
+msgid "Phone Number"
+msgstr ""
+
+#: class-ilcsb-admin-settings.php:53
+msgid "Enter the phone number where your customers can call you."
+msgstr ""
+
+#: class-ilcsb-admin-settings.php:59
+msgid "Phone Open From"
+msgstr ""
+
+#: class-ilcsb-admin-settings.php:65
+msgid "From which hour is the phone open."
+msgstr ""
+
+#: class-ilcsb-admin-settings.php:71
+msgid "Phone Open Until"
+msgstr ""
+
+#: class-ilcsb-admin-settings.php:77
+msgid "Until which hour is the phone open."
+msgstr ""
+
+#: class-ilcsb-admin-settings.php:83
+msgid "E-mail Address"
+msgstr ""
+
+#: class-ilcsb-admin-settings.php:89
+msgid "Enter the email address where your customers can contact you."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: class-ilcsb-admin-settings.php:101
+msgid "Ilmenite Customer Service Box"
+msgstr ""
+
+#: ilmenite-csbox.php:186
+msgid "Let us call you"
+msgstr ""
+
+#: ilmenite-csbox.php:250
+msgid "The nonce did not verify."
+msgstr ""
+
+#: ilmenite-csbox.php:264
+msgid "Request For Phone Call"
+msgstr ""
+
+#: ilmenite-csbox.php:268
+#, php-format
+msgid ""
+"The following person has requested that you call them back.\\n\\nName: %1$s"
+"\\nPhone: %2$s"
+msgstr ""
+
+#: ilmenite-csbox.php:280
+msgid "We will get in touch with you as soon as we can."
+msgstr ""
+
+#: ilmenite-csbox.php:283
+msgid "You need to enter your phone number."
+msgstr ""
+
+#: templates/leave-phone-number.php:13
+msgid "Your Name"
+msgstr ""
+
+#: templates/leave-phone-number.php:22
+msgid "Send"
+msgstr ""
+
+#: templates/popout-box.php:8
+msgid "Contact Us"
+msgstr ""
+
+#: templates/popout-box.php:13
+msgid "How can we help you?"
+msgstr ""
+
+#: templates/popout-box.php:16
+msgid "Choose one of the following ways to get in touch with us."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.ilmenite.io"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Adds a floating customer service box to the side of the website."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Bernskiold Media"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.bernskioldmedia.com"
+msgstr ""

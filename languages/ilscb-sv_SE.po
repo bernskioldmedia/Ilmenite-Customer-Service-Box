@@ -1,0 +1,133 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: Ilmenite Customer Service Box\n"
+"POT-Creation-Date: 2016-03-24 10:53+0100\n"
+"PO-Revision-Date: 2016-03-24 10:56+0100\n"
+"Language-Team: Erik Bernskiold <erik@bernskioldmedia.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ilmenite-csbox.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: Erik Bernskiold <erik@bernskioldmedia.com>\n"
+"Language: sv_SE\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: class-ilcsb-admin-settings.php:25 class-ilcsb-admin-settings.php:26
+msgid "Customer Service Box"
+msgstr "Kundtjänstruta"
+
+#: class-ilcsb-admin-settings.php:40
+msgid "Contact Methods"
+msgstr "Kontaktsätt"
+
+#: class-ilcsb-admin-settings.php:47 templates/leave-phone-number.php:18
+msgid "Phone Number"
+msgstr "Telefonnummer"
+
+#: class-ilcsb-admin-settings.php:53
+msgid "Enter the phone number where your customers can call you."
+msgstr "Ange telefonnumret där dina kunder kan nå dig."
+
+#: class-ilcsb-admin-settings.php:59
+msgid "Phone Open From"
+msgstr "Telefonen öppen från"
+
+#: class-ilcsb-admin-settings.php:65
+msgid "From which hour is the phone open."
+msgstr "Från vilket klockslag är telefonen öppen?"
+
+#: class-ilcsb-admin-settings.php:71
+msgid "Phone Open Until"
+msgstr "Telefonen öppen till"
+
+#: class-ilcsb-admin-settings.php:77
+msgid "Until which hour is the phone open."
+msgstr "Till och med vilket klockslag är telefonen öppen?"
+
+#: class-ilcsb-admin-settings.php:83
+msgid "E-mail Address"
+msgstr "E-postadress"
+
+#: class-ilcsb-admin-settings.php:89
+msgid "Enter the email address where your customers can contact you."
+msgstr "Ange den e-postadress där dina kunder kan kontakta dig."
+
+#. Plugin Name of the plugin/theme
+#: class-ilcsb-admin-settings.php:101
+msgid "Ilmenite Customer Service Box"
+msgstr "Ilmenite kundtjänstruta"
+
+#: ilmenite-csbox.php:186
+msgid "Let us call you"
+msgstr "Bli uppringd"
+
+#: ilmenite-csbox.php:250
+msgid "The nonce did not verify."
+msgstr "Ogiltig nonce verifiering"
+
+#: ilmenite-csbox.php:264
+msgid "Request For Phone Call"
+msgstr "Begäran om att bli uppringd"
+
+#: ilmenite-csbox.php:268
+#, php-format
+msgid ""
+"The following person has requested that you call them back.\\n\\nName: %1$s"
+"\\nPhone: %2$s"
+msgstr ""
+"Följande person har begärt att du ringer upp dem.\n"
+"\n"
+" Namn: %1$s \n"
+" Telefon: %2$s"
+
+#: ilmenite-csbox.php:280
+msgid "We will get in touch with you as soon as we can."
+msgstr "Vi kommer att komma i kontakt med dig så snart vi kan."
+
+#: ilmenite-csbox.php:283
+msgid "You need to enter your phone number."
+msgstr "Du måste ange ditt telefonnummer."
+
+#: templates/leave-phone-number.php:13
+msgid "Your Name"
+msgstr "Ditt namn"
+
+#: templates/leave-phone-number.php:22
+msgid "Send"
+msgstr "Skicka"
+
+#: templates/popout-box.php:8
+msgid "Contact Us"
+msgstr "Kontakta oss"
+
+#: templates/popout-box.php:13
+msgid "How can we help you?"
+msgstr "Hur kan vi hjälpa dig?"
+
+#: templates/popout-box.php:16
+msgid "Choose one of the following ways to get in touch with us."
+msgstr "Välj ett av följande sätt att komma i kontakt med oss."
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.ilmenite.io"
+msgstr "http://www.ilmenite.io"
+
+#. Description of the plugin/theme
+msgid "Adds a floating customer service box to the side of the website."
+msgstr "Lägger till en fast kundtjänstruta på sidan på din webbplats."
+
+#. Author of the plugin/theme
+msgid "Bernskiold Media"
+msgstr "Bernskiold Media"
+
+#. Author URI of the plugin/theme
+msgid "http://www.bernskioldmedia.com"
+msgstr "http://www.bernskioldmedia.se"

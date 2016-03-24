@@ -1,0 +1,98 @@
+.cs-box-wrapper {
+	position: fixed;
+	right: 0;
+	top: 30%;
+	z-index: 9999;
+	transform: translate3d(68%, 0, 0);
+	transition: 0.3s transform ease-in-out;
+}
+
+.cs-box-wrapper.is-active {
+	transform: translate3d(0, 0, 0);
+}
+
+.cs-box-trigger {
+	display: block;
+	transform: rotate(-90deg);
+	transform-origin: 100% 100%;
+	background: darkorange;
+	color: white;
+	padding: 0.4em 1.2em 0.5em 1.2em;
+	font-size: 1.3em;
+	float: left;
+	box-shadow: 0 -5px 5px rgba(0,0,0,0.3);
+}
+
+.cs-box {
+	background: #f9f9f9;
+	float: left;
+	width: 20em;
+	padding: 1em 1.4em;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.cs-box-title {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.cs-box-method-list {
+	margin: 0;
+	list-style: none;
+}
+
+.cs-box-method-list-item {
+	border-bottom: 1px solid #e9e9e9;
+	padding: 0.35em 0.2em;
+}
+
+.cs-box-method-list-item:last-child {
+	border-bottom: none;
+}
+
+.cs-box-method-list-item .icon {
+	display: inline-block;
+	vertical-align: middle;
+ }
+
+.cs-box-method-list-item .value {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.cs-box-method-list-item .status {
+	display: inline-block;
+	vertical-align: middle;
+	width: 1.3em;
+	height: 1.3em;
+	display: inline-block;
+	background: #555;
+	border-radius: 50%;
+	margin-left: 0.2em;
+}
+
+.cs-box-method-list-item .status-open {
+	background: green;
+}
+
+.cs-box-method-list-item .status-closed {
+	background: red;
+}
+
+.cs-method-content {
+	display: none;
+	padding: 0.5em 0.2em;
+}
+
+.cs-method-email {}
+
+.cs-box-form {}
+
+.cs-box-form label {
+	margin-bottom: 1rem;
+	display: block;
+}
+
+.cs-box-form-message {
+	display: none;
+}
