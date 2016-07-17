@@ -16,7 +16,7 @@
 	left: 0;
 	transform: rotate(-90deg);
 	transform-origin: bottom left;
-	top: 50%;
+	top: 10rem;
 	display: block;
 	background: darkorange;
 	color: white;

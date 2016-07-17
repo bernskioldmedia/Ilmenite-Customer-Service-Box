@@ -136,7 +136,7 @@ class Ilmenite_CSBox {
 
 		wp_register_script( 'ilmenite-csbox', $this->get_plugin_assets_uri() . 'js/csbox.js', array( 'jquery' ), $this->get_plugin_version(), true );
 
-		wp_localize_script( 'ilmenite-csbox', 'ilmenite-csbox', array(
+		wp_localize_script( 'ilmenite-csbox', 'ilcsb', array(
 			'ajaxurl' => admin_url( 'admin-ajax.php' ),
 		) );
 
