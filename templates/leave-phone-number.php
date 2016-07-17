@@ -10,16 +10,16 @@
 	<div class="cs-box-form-fields">
 
 		<label for="name">
-			<?php _e( 'Your Name', 'ilcsb' ); ?>
+			<?php _e( 'Your Name', 'ilmenite-csbox' ); ?>
 			<input type="text" name="name" id="name">
 		</label>
 
 		<label for="phone">
-			<?php _e( 'Phone Number', 'ilcsb' ); ?>
+			<?php _e( 'Phone Number', 'ilmenite-csbox' ); ?>
 			<input type="text" name="phone" id="phone">
 		</label>
 
-		<input type="submit" class="button" value="<?php _e( 'Send', 'ilcsb' ); ?>">
+		<input type="submit" class="button" value="<?php _e( 'Send', 'ilmenite-csbox' ); ?>">
 
 		<?php wp_nonce_field( 'send_phone', 'ilcsb_phone' ); ?>
 

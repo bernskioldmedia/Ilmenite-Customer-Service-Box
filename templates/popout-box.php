@@ -5,15 +5,15 @@
 ?>
 <div class="cs-box-wrapper">
 	<a href="#" class="cs-box-trigger">
-		<?php _e( 'Contact Us', 'ilcsb' ); ?>
+		<?php _e( 'Contact Us', 'ilmenite-csbox' ); ?>
 	</a>
 	<div class="cs-box">
 
 		<div class="cs-box-title">
-			<?php _e( 'How can we help you?', 'ilcsb' ); ?>
+			<?php _e( 'How can we help you?', 'ilmenite-csbox' ); ?>
 		</div>
 
-		<p class="cs-box-intro"><?php _e( 'Choose one of the following ways to get in touch with us.', 'ilcsb' ); ?></p>
+		<p class="cs-box-intro"><?php _e( 'Choose one of the following ways to get in touch with us.', 'ilmenite-csbox' ); ?></p>
 
 		<?php
 		$contact_methods = Ilmenite_CSBox()->get_contact_methods();

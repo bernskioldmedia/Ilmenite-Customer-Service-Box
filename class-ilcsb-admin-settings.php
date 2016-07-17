@@ -22,8 +22,8 @@ class ILCSB_Admin_Settings {
 
 		add_submenu_page(
 			'themes.php',
-			__( 'Customer Service Box', 'ilcsb' ),
-			__( 'Customer Service Box', 'ilcsb' ),
+			__( 'Customer Service Box', 'ilmenite-csbox' ),
+			__( 'Customer Service Box', 'ilmenite-csbox' ),
 			'manage_options',
 			'ilcsb_settings',
 			array( $this, 'settings_page' )
@@ -37,56 +37,56 @@ class ILCSB_Admin_Settings {
 
 		add_settings_section(
 			'ilcsb_contact_methods',
-			__( 'Contact Methods', 'ilcsb' ),
+			__( 'Contact Methods', 'ilmenite-csbox' ),
 			array( $this, 'cb_section' ),
 			'ilcsb_settings'
 		);
 
 		add_settings_field(
 			'ilcsb_phone',
-			__( 'Phone Number', 'ilcsb' ),
+			__( 'Phone Number', 'ilmenite-csbox' ),
 			array( $this, 'cb_input' ),
 			'ilcsb_settings',
 			'ilcsb_contact_methods',
 			array(
 				'label_for'     => 'ilcsb_phone',
-				'description'   => __( 'Enter the phone number where your customers can call you.', 'ilcsb' ),
+				'description'   => __( 'Enter the phone number where your customers can call you.', 'ilmenite-csbox' ),
 			)
 		);
 
 		add_settings_field(
 			'ilcsb_phone_from',
-			__( 'Phone Open From', 'ilcsb' ),
+			__( 'Phone Open From', 'ilmenite-csbox' ),
 			array( $this, 'cb_input' ),
 			'ilcsb_settings',
 			'ilcsb_contact_methods',
 			array(
 				'label_for'     => 'ilcsb_phone_from',
-				'description'   => __( 'From which hour is the phone open.', 'ilcsb' ),
+				'description'   => __( 'From which hour is the phone open.', 'ilmenite-csbox' ),
 			)
 		);
 
 		add_settings_field(
 			'ilcsb_phone_to',
-			__( 'Phone Open Until', 'ilcsb' ),
+			__( 'Phone Open Until', 'ilmenite-csbox' ),
 			array( $this, 'cb_input' ),
 			'ilcsb_settings',
 			'ilcsb_contact_methods',
 			array(
 				'label_for'     => 'ilcsb_phone_to',
-				'description'   => __( 'Until which hour is the phone open.', 'ilcsb' ),
+				'description'   => __( 'Until which hour is the phone open.', 'ilmenite-csbox' ),
 			)
 		);
 
 		add_settings_field(
 			'ilcsb_email',
-			__( 'E-mail Address', 'ilcsb' ),
+			__( 'E-mail Address', 'ilmenite-csbox' ),
 			array( $this, 'cb_input' ),
 			'ilcsb_settings',
 			'ilcsb_contact_methods',
 			array(
 				'label_for'     => 'ilcsb_email',
-				'description'   => __( 'Enter the email address where your customers can contact you.', 'ilcsb' ),
+				'description'   => __( 'Enter the email address where your customers can contact you.', 'ilmenite-csbox' ),
 			)
 		);
 
@@ -98,7 +98,7 @@ class ILCSB_Admin_Settings {
 
 		<form action="options.php" method="post">
 
-			<h1><?php _e( 'Ilmenite Customer Service Box', 'ilcsb' ); ?></h1>
+			<h1><?php _e( 'Ilmenite Customer Service Box', 'ilmenite-csbox' ); ?></h1>
 
 			<?php
 			settings_fields( 'ilcsb_group' );

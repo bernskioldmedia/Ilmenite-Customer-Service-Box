@@ -6,7 +6,7 @@
  * Version:     1.0
  * Author:      Bernskiold Media
  * Author URI:  http://www.bernskioldmedia.com
- * Text Domain: ilcsb
+ * Text Domain: ilmenite-csbox
  * Domain Path: /languages/
  *
  * **************************************************************************
@@ -125,7 +125,7 @@ class Ilmenite_CSBox {
 	 */
 	public function languages() {
 
-		load_plugin_textdomain( 'ilcsb', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+		load_plugin_textdomain( 'ilmenite-csbox', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 
 	}
 
@@ -134,13 +134,13 @@ class Ilmenite_CSBox {
 	 */
 	public function scripts() {
 
-		wp_register_script( 'ilcsb', $this->get_plugin_assets_uri() . 'js/csbox.js', array( 'jquery' ), $this->get_plugin_version(), true );
+		wp_register_script( 'ilmenite-csbox', $this->get_plugin_assets_uri() . 'js/csbox.js', array( 'jquery' ), $this->get_plugin_version(), true );
 
-		wp_localize_script( 'ilcsb', 'ilcsb', array(
+		wp_localize_script( 'ilmenite-csbox', 'ilmenite-csbox', array(
 			'ajaxurl' => admin_url( 'admin-ajax.php' ),
 		) );
 
-		wp_enqueue_script( 'ilcsb' );
+		wp_enqueue_script( 'ilmenite-csbox' );
 
 	}
 
@@ -149,9 +149,9 @@ class Ilmenite_CSBox {
 	 */
 	public function styles() {
 
-		wp_register_style( 'ilcsb', $this->get_plugin_assets_uri() . 'css/csbox.css', false, $this->get_plugin_version(), 'all' );
+		wp_register_style( 'ilmenite-csbox', $this->get_plugin_assets_uri() . 'css/csbox.css', false, $this->get_plugin_version(), 'all' );
 
-		wp_enqueue_style( 'ilcsb' );
+		wp_enqueue_style( 'ilmenite-csbox' );
 
 	}
 
@@ -183,7 +183,7 @@ class Ilmenite_CSBox {
 		);
 
 		$contact_methods['phone_out'] = array(
-			'value'     => __( 'Let us call you', 'ilcsb' ),
+			'value'     => __( 'Let us call you', 'ilmenite-csbox' ),
 			'icon'      => true,
 			'link'      => '#',
 			'status'    => true,
@@ -247,7 +247,7 @@ class Ilmenite_CSBox {
 
 		// Verify nonce
 		if ( ! wp_verify_nonce( $_REQUEST['nonce'], 'send_phone' ) )
-			wp_die( __( 'The nonce did not verify.', 'ilcsb' ) );
+			wp_die( __( 'The nonce did not verify.', 'ilmenite-csbox' ) );
 
 		// Get the options
 		$options = get_option( 'ilcsb_settings' );
@@ -264,11 +264,11 @@ class Ilmenite_CSBox {
 			$to_address = $options['ilcsb_email'];
 
 			// Email Subject
-			$email_subject = __( 'Request For Phone Call', 'ilcsb' );
+			$email_subject = __( 'Request For Phone Call', 'ilmenite-csbox' );
 
 			// Email Message
 			$email_message = sprintf(
-				__( 'The following person has requested that you call them back.\n\nName: %1$s\nPhone: %2$s', 'ilcsb' ),
+				__( 'The following person has requested that you call them back.\n\nName: %1$s\nPhone: %2$s', 'ilmenite-csbox' ),
 				$name,
 				$phone
 			);
@@ -280,10 +280,10 @@ class Ilmenite_CSBox {
 				$email_message
 			);
 
-			echo __( 'We will get in touch with you as soon as we can.', 'ilcsb' );
+			echo __( 'We will get in touch with you as soon as we can.', 'ilmenite-csbox' );
 
 		} else {
-			echo __( 'You need to enter your phone number.', 'ilcsb' );
+			echo __( 'You need to enter your phone number.', 'ilmenite-csbox' );
 		}
 
 		wp_die();
