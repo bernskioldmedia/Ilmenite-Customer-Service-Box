@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: Ilmenite Customer Service Box\n"
-"POT-Creation-Date: 2016-03-24 10:53+0100\n"
+"POT-Creation-Date: 2016-07-17 17:59+0200\n"
 "PO-Revision-Date: 2016-03-24 10:53+0100\n"
 "Last-Translator: Erik Bernskiold <erik@bernskioldmedia.com>\n"
 "Language-Team: Erik Bernskiold <erik@bernskioldmedia.com>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "X-Poedit-WPHeader: ilmenite-csbox.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
-"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -73,22 +73,22 @@ msgstr ""
 msgid "The nonce did not verify."
 msgstr ""
 
-#: ilmenite-csbox.php:264
+#: ilmenite-csbox.php:267
 msgid "Request For Phone Call"
 msgstr ""
 
-#: ilmenite-csbox.php:268
+#: ilmenite-csbox.php:271
 #, php-format
 msgid ""
 "The following person has requested that you call them back.\\n\\nName: %1$s"
 "\\nPhone: %2$s"
 msgstr ""
 
-#: ilmenite-csbox.php:280
+#: ilmenite-csbox.php:283
 msgid "We will get in touch with you as soon as we can."
 msgstr ""
 
-#: ilmenite-csbox.php:283
+#: ilmenite-csbox.php:286
 msgid "You need to enter your phone number."
 msgstr ""
 

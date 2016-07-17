@@ -1,13 +1,15 @@
 msgid ""
 msgstr ""
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Project-Id-Version: Ilmenite Customer Service Box\n"
-"POT-Creation-Date: 2016-03-24 10:53+0100\n"
-"PO-Revision-Date: 2016-03-24 10:56+0100\n"
+"POT-Creation-Date: 2016-07-17 17:59+0200\n"
+"PO-Revision-Date: 2016-07-17 17:59+0200\n"
+"Last-Translator: Erik Bernskiold <erik@bernskioldmedia.com>\n"
 "Language-Team: Erik Bernskiold <erik@bernskioldmedia.com>\n"
+"Language: sv_SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.8.7\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: ilmenite-csbox.php\n"
@@ -15,8 +17,6 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
 "_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"Last-Translator: Erik Bernskiold <erik@bernskioldmedia.com>\n"
-"Language: sv_SE\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -73,11 +73,11 @@ msgstr "Bli uppringd"
 msgid "The nonce did not verify."
 msgstr "Ogiltig nonce verifiering"
 
-#: ilmenite-csbox.php:264
+#: ilmenite-csbox.php:267
 msgid "Request For Phone Call"
 msgstr "Begäran om att bli uppringd"
 
-#: ilmenite-csbox.php:268
+#: ilmenite-csbox.php:271
 #, php-format
 msgid ""
 "The following person has requested that you call them back.\\n\\nName: %1$s"
@@ -88,11 +88,11 @@ msgstr ""
 " Namn: %1$s \n"
 " Telefon: %2$s"
 
-#: ilmenite-csbox.php:280
+#: ilmenite-csbox.php:283
 msgid "We will get in touch with you as soon as we can."
 msgstr "Vi kommer att komma i kontakt med dig så snart vi kan."
 
-#: ilmenite-csbox.php:283
+#: ilmenite-csbox.php:286
 msgid "You need to enter your phone number."
 msgstr "Du måste ange ditt telefonnummer."
 
