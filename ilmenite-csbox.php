@@ -261,7 +261,7 @@ class Ilmenite_CSBox {
 		if ( ! empty( $phone ) ) {
 
 			// Email To Address
-			$to_address = ( is_email( $options['ilcsb_email'] ? $options['ilcsb_email'] : false );
+			$to_address = ( is_email( $options['ilcsb_email'] ) ? $options['ilcsb_email'] : false );
 
 			// Email Subject
 			$email_subject = __( 'Request For Phone Call', 'ilmenite-csbox' );
