@@ -112,3 +112,10 @@
 .cs-box-form-message {
 	display: none;
 }
+
+@media screen and (max-width: 640px) {
+	.cs-box-wrapper {
+		width: 80%;
+		right: -80%;
+	}
+}
